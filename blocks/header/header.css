@@ -1,0 +1,35 @@
+.header {
+  max-width: 1184px;
+  min-height: 52px;
+  margin: 28px 48px 0 48px;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 0 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+    min-height: 52px;
+    margin: 28px 48px 0 48px;
+    gap: 0 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    min-height: 52px;
+    margin: 28px 24px 0 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 288px;
+    min-height: 42px;
+    margin: 16px 16px 0 16px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 0 18px;
+  }
+}

@@ -1,3 +1,4 @@
+/*
 .page {
   font-family: "Inter";
   font-weight: 400;
@@ -7,8 +8,9 @@
   color: #ffffff;
   margin: 0 auto;
 }
-
+*/
 /*---- header ----*/
+/*
 .header {
   max-width: 1184px;
   min-height: 52px;
@@ -32,12 +34,16 @@
 .header__lang-link:hover {
   text-decoration-line: underline;
 }
+*/
 /* header end */
 
+/*
 .content {
 }
+*/
 
 /* lead */
+/*
 .lead {
   max-width: 984px;
   text-align: center;
@@ -73,9 +79,11 @@
   text-transform: uppercase;
   padding: 8px 0 0 0;
 }
+*/
 /* lead end */
 
 /* intro*/
+/*
 .intro {
   max-width: 984px;
   padding-top: 92px;
@@ -99,9 +107,11 @@
   line-height: 18px;
   padding-top: 33px;
 }
+*/
 /* intro end */
 
 /* photo-grid */
+/*
 .photo-grid {
   padding-top: 92px;
   max-width: 1184px;
@@ -115,9 +125,12 @@
   object-fit: cover;
   object-position: right top;
 }
+*/
+
 /* photo-grid end */
 
 /* places */
+/*
 .places {
   max-width: 984px;
   margin: 0 auto;
@@ -176,12 +189,13 @@
 .place__paragraph:first-child {
   padding-bottom: 26px;
 }
+*/
 /* places end */
 
 /* cover */
+/*
 .cover {
   max-width: 1184px;
-  /*padding-top: 92px;*/
   margin: 92px auto 0;
   background-image: url("../img/cover-trains.jpg");
   background-size: cover;
@@ -217,9 +231,11 @@
   text-align: center;
   color: #ffffff;
 }
+*/
 /* cover end */
 
 /* footer */
+/*
 .footer {
   max-width: 1184px;
   padding: 92px 0 24px 0;
@@ -246,6 +262,7 @@
   font-size: 14px;
   line-height: 16px;
 }
+*/
 /* footer end */
 
 @media screen and (max-width: 1024px) {
