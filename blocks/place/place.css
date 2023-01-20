@@ -29,7 +29,12 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 32px 0;
-    /* margin-bottom: 80px;*/
     padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    padding-bottom: 50px;
   }
 }

@@ -1,0 +1,10 @@
+.cover__overlay {
+  display: block;
+  text-decoration: none;
+  transition-duration: 1s;
+  background-color: rgba(42, 44, 47, 0.3);
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
