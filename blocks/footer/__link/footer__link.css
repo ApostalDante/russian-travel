@@ -3,21 +3,13 @@
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
+  text-decoration: none;
   transition-duration: 1s;
 }
 .footer__link:hover {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 676px) {
-  .footer__link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    color: #ffffff;
-    transition-duration: 1s;
-  }
-}
 @media screen and (max-width: 320px) {
   .footer__link {
     font-size: 24px;
